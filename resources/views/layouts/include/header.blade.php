@@ -31,7 +31,7 @@
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+    <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <img class="position-absolute img-fluid " src="{{ asset("img/logo.png") }}"
             style="object-fit: cover;max-width: 80px;" alt="" > 
     </a>
