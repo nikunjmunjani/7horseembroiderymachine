@@ -341,7 +341,7 @@
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
-                        <img src="{{asset("img/ms-icon-310x310.png")}}">
+                        <img src="{{asset("img/7horse.png")}}">
                     </div>
                 </div>
                 <div class="col-lg-6">
