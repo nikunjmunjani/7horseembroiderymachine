@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>New Contact Form Submission</title>
+    {{-- <title>New Contact Form Submission</title> --}}
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,10 +42,10 @@
         .btn {
             display: inline-block;
             padding: 10px 20px;
-            color: #fff;
-            background-color: #28a745;
+            color: #fff !important;
+            background-color: rgb(11, 33, 84);
+            border-color: rgb(11, 33, 84);
             text-decoration: none;
-            border-radius: 5px;
         }
         .btn:hover {
             background-color: #218838;
@@ -64,7 +64,6 @@
             <p style="border-left: 4px solid #28a745; padding-left: 10px;">{{ $messages }}</p>
         </div>
         <div class="footer">
-            <p>Thank you for contacting us!</p>
             <a href="mailto:{{ $email }}" class="btn">Reply to {{ $name }}</a>
         </div>
     </div>

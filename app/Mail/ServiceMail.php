@@ -35,7 +35,7 @@ class ServiceMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Service Mail',
+            subject: 'Request For Quote',
         );
     }
 
@@ -61,7 +61,7 @@ class ServiceMail extends Mailable
 
     public function build()
     {
-        return $this->subject('service Form Submission: ')
+        return $this->subject('Request For Quote: ')
                     ->view('emails.service_form') 
                     ->with([
                         'name' => $this->name,

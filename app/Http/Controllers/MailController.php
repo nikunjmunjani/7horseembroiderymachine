@@ -19,7 +19,7 @@ class MailController extends Controller
             'messages' => 'required|string',
         ]);
 
-        Mail::to('devitaliya0@gmail.com')->send(new ContactMail(
+        Mail::to('info@7horseembroiderymachine.com')->send(new ContactMail(
             $request->name,
             $request->email,
             $request->mobile,
@@ -39,7 +39,7 @@ class MailController extends Controller
             'messages' => 'required|string',
         ]);
 
-        Mail::to('devitaliya0@gmail.com')->send(new ServiceMail(
+        Mail::to('info@7horseembroiderymachine.com')->send(new ServiceMail(
             $request->name,
             $request->email,
             $request->mobile,
